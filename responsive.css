@@ -1,0 +1,284 @@
+@media screen and (max-width: 1200px) {
+  .footer-links {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .heading {
+    font-size: 34px;
+  }
+  .para {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  main {
+    background-size: 300% 58%;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .second-para {
+    font-size: 14px;
+  }
+  .footer-para {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  main {
+    background-size: 300% 63%;
+  }
+  .heading {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .form {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 85%;
+  }
+  .invalid-email {
+    position: static;
+    margin: 0;
+  }
+  .first {
+    width: 100%;
+  }
+  .submit-button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  main {
+    background-size: 500% 55%;
+  }
+  nav {
+    padding: 35px 40px;
+  }
+  .logo {
+    width: 100px;
+  }
+  .section {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .lowerleft {
+    width: 100%;
+    align-items: center;
+    gap: 25px;
+  }
+  main {
+    padding: 45px 40px;
+  }
+  .top {
+    padding: 75px 40px;
+    flex-direction: column;
+  }
+  .bottom {
+    padding: 75px 40px;
+  }
+  .img {
+    width: 75%;
+  }
+  .img2 {
+    width: 75%;
+  }
+  .upperleft {
+    width: 100%;
+    gap: 30px;
+  }
+  .heading {
+    line-height: 38px;
+    text-align: center;
+  }
+  .para {
+    text-align: center;
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+    align-items: center;
+  }
+  .first {
+    align-items: center;
+  }
+  .second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #email-input {
+    width: 65%;
+  }
+  .submit-button {
+    width: 65%;
+  }
+  .second-para {
+    width: 98%;
+  }
+  .left {
+    width: 100%;
+    align-items: center;
+  }
+  .footer-para {
+    text-align: center;
+  }
+  .right {
+    width: 100%;
+    align-items: center;
+  }
+  .second-email {
+    width: 60%;
+  }
+  .submit {
+    width: calc(60% + 30px);
+  }
+  .top {
+    gap: 25px;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .col4 {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  nav {
+    padding: 30px 30px;
+  }
+  .logo {
+    width: 90px;
+  }
+  .header-links {
+    gap: 25px;
+    font-size: 12px;
+  }
+  main {
+    padding: 30px 20px;
+    background-image: url("fylo-landing-page-with-two-column-layout-master/images/bg-curve-mobile.svg");
+    background-size: 700% 55%;
+  }
+  .upperleft {
+    width: 100%;
+    text-align: center;
+  }
+  .img {
+    width: 100%;
+  }
+  .img2 {
+    width: 100%;
+  }
+  .section {
+    flex-direction: column;
+    gap: 35px;
+  }
+  .upperleft {
+    align-items: center;
+  }
+  .heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .para {
+    width: 91%;
+    font-size: 14px;
+  }
+  .form {
+    flex-direction: column;
+    width: 100%;
+  }
+  #email-input {
+    width: 91%;
+  }
+  .submit-button {
+    width: 91%;
+  }
+  .lowerleft {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .second-para {
+    width: 90%;
+    text-align: start;
+    font-size: 13px;
+  }
+  .responsiveheading {
+    font-size: 16px;
+  }
+  .arrow {
+    width: 16px;
+  }
+  .dif-para {
+    font-size: 13px;
+  }
+  .green {
+    width: 139px;
+  }
+  .quote {
+    width: 250px;
+    padding: 22px;
+  }
+  .quote-para {
+    font-size: 11px;
+    text-align: start;
+    width: 98%;
+  }
+  .profileinfo {
+    text-align: start;
+  }
+  .name {
+    font-size: 12px;
+  }
+  .details {
+    font-size: 9px;
+  }
+  .pfp {
+    width: 28px;
+    height: 28px;
+  }
+  .top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 75px 20px;
+    gap: 20px;
+  }
+  .left {
+    width: 100%;
+    align-items: center;
+  }
+  .footer-heading {
+    font-size: 22px;
+  }
+  .footer-para {
+    font-size: 15px;
+    width: 90%;
+  }
+  .right {
+    width: 72%;
+    flex-direction: column;
+  }
+  .second-email {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8px;
+  }
+  .submit {
+    width: 100%;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 35px;
+  }
+  .bottom {
+    gap: 35px;
+    padding: 75px 35px;
+  }
+  .col4 {
+    align-self: center;
+  }
+}

@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+:root {
+  --width-height: 32px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 45px 75px;
+  width: 100vw;
+}
+.logo {
+  width: 130px;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.header-links {
+  display: flex;
+  gap: 50px;
+  font-size: 15px;
+  font-family: Raleway;
+  font-weight: 700;
+}
+.header-link {
+  list-style: none;
+  color: hsl(238, 22%, 44%);
+}
+.header-link:hover {
+  cursor: pointer;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+  padding: 45px 75px;
+  background-image: url("fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 300% 55%;
+}
+.section {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.upperleft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 55%;
+}
+.heading {
+  color: hsl(243, 87%, 12%);
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 45px;
+  font-size: 40px;
+}
+.para {
+  color: hsl(243, 87%, 12%);
+  font-family: Open Sans;
+  font-size: 19px;
+  width: 90%;
+}
+.form {
+  display: flex;
+  gap: 15px;
+}
+#email-input {
+  color: hsl(0, 0%, 75%);
+  border: 1px solid hsl(243, 87%, 12%);
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  padding: 0 15px;
+}
+#email-input:invalid {
+  border: 1px solid red;
+}
+.invalid-email {
+  color: red;
+  display: none;
+  position: absolute;
+  margin-top: 42px;
+  font-size: 12px;
+  font-family: Open Sans;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+}
+#email-input:invalid + .invalid-email {
+  display: inline-block;
+}
+#email-input:focus {
+  outline: none;
+}
+.submit-button {
+  color: white;
+  font-size: 12px;
+  font-family: Raleway;
+  font-weight: 700;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  width: 30%;
+  height: 40px;
+  border-radius: 3px;
+  box-shadow: 10px 2px 40px -8.8px gray;
+}
+.submit-button:hover {
+  cursor: pointer;
+  background-color: hsl(224, 93%, 68%);
+}
+.img {
+  width: 50%;
+}
+.lowerleft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 55%;
+}
+.green {
+  display: flex;
+  align-items: flex-end;
+  color: hsl(170, 45%, 43%);
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  padding-bottom: 5px;
+  width: 159px;
+}
+.green:hover {
+  color: hsl(170, 80%, 60%);
+  border-bottom: 1px solid hsl(170, 80%, 60%);
+}
+.green:hover .arrow {
+  display: none;
+}
+.green:hover .arrow-hover {
+  display: inline-block;
+}
+.dif-para {
+  font-family: Open Sans;
+  font-size: 15px;
+}
+.arrow-hover {
+  width: 18px;
+  display: none;
+}
+.arrow {
+  width: 18px;
+}
+.second-para {
+  color: hsl(243, 87%, 12%);
+  font-family: Open Sans;
+  font-size: 16px;
+  width: 75%;
+}
+.img2 {
+  width: 40%;
+}
+.quote {
+  margin: 35px 0;
+  width: 300px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 0px 25px -15px gray;
+  border-radius: 5px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.quote-img {
+  width: 20px;
+}
+.quote-para {
+  color: hsl(243, 87%, 12%);
+  font-family: Open Sans;
+  font-size: 14px;
+  width: 100%;
+  line-height: 23px;
+}
+.profile {
+  display: flex;
+  gap: 8px;
+}
+.pfp {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+.profileinfo {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-family: Raleway;
+  font-weight: 700;
+  color: hsl(243, 87%, 12%);
+  font-size: 15px;
+}
+.details {
+  font-family: Open Sans;
+  color: hsl(243, 87%, 12%);
+  font-size: 11px;
+}
+.top {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 100%;
+  padding: 75px 75px;
+  background-color: hsl(238, 22%, 44%);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 42%;
+}
+.footer-heading {
+  font-size: 32px;
+  font-family: Raleway;
+  font-weight: 700;
+  color: white;
+}
+.footer-para {
+  font-size: 17px;
+  font-family: Open Sans;
+  color: white;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 42%;
+  gap: 10px;
+}
+.second-email {
+  height: 40px;
+  border-radius: 3px;
+  padding: 0 15px;
+  color: hsl(0, 0%, 75%);
+  border: none;
+}
+.invalid-email-2 {
+  color: white;
+  display: none;
+  margin-top: -6px;
+  font-size: 12px;
+  font-family: Open Sans;
+}
+.second-email:invalid + .invalid-email-2 {
+  display: inline-block;
+}
+.second-email:invalid {
+  border: 1px solid red;
+}
+.second-email:focus {
+  outline: none;
+}
+.submit {
+  color: white;
+  font-size: 12px;
+  font-family: Raleway;
+  font-weight: 700;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  box-shadow: 10px 2px 40px -8.8px gray;
+}
+.submit:hover {
+  background-color: hsl(224, 93%, 68%);
+}
+.submit:hover {
+  cursor: pointer;
+}
+.bottom {
+  width: 100vw;
+  background-color: hsl(243, 87%, 12%);
+  padding: 75px 75px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 25px;
+}
+.footer-url {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.footer-url {
+  list-style: none;
+  color: hsl(0, 0%, 75%);
+  font-family: Open Sans;
+  font-size: 13px;
+}
+.logo-2 {
+  width: 150px;
+}
+.col1 {
+  width: 200px;
+  color: hsl(240, 75%, 98%);
+}
+.col1-url {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon {
+  width: 20px;
+  height: 17px;
+}
+.col4 {
+  display: flex;
+  flex-direction: row;
+}
+.ic {
+  width: var(--width-height);
+  height: var(--width-height);
+  border: 1px solid hsl(0, 0%, 75%);
+  border-radius: 50%;
+}
+.ic1 {
+  background-image: url("fylo-landing-page-with-two-column-layout-master/images/toppng.com-facebook-logo-white-white-facebook-f-logo-760x1440.png");
+  background-size: 10px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ic2 {
+  background-image: url("fylo-landing-page-with-two-column-layout-master/images/toppng.com-twitter-icon-white-transparent-1141x928.png");
+  background-size: 18px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ic3 {
+  background-image: url("fylo-landing-page-with-two-column-layout-master/images/toppng.com-instagram-logo-white-on-black-2101x2101.png");
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.col2 .url:hover,
+.col3 .url:hover {
+  color: hsl(238, 22%, 44%);
+}
+.url:hover {
+  cursor: pointer;
+}
